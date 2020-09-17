@@ -14,12 +14,12 @@ html {
         .intro{
             margin-top: 25vh;
             line-height: 65px;
-            text-align: center;
+            text-align: center ;
             letter-spacing: 1.3px;
            
         }
         .arrow {
-            margin-top: 10vh;
+            margin-top: 20vh;
             margin-right: 40vw;
             font-size: 30px;
             color: #00a3af;

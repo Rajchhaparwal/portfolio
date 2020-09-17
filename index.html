@@ -23,7 +23,7 @@
 
     
 </head>
-<body >
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
     <header class="header">
         <nav class="navbar  navbar-default navbar-style navbar-fixed-top">
             <div class="container">
@@ -34,11 +34,11 @@
                     <div class="line3"></div>  
                     </button>
       
-                    <a href="index.html"><img class="logo" src="logom.png"></a>
+                    <a href="homepage.html"><img class="logo" src="logom.png"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right navcontent " >
-                    <li class="current"><a href="index.html" href="#home" >Home</a></li>
+                    <li class="current"><a href="homepage.html" href="#home" >Home</a></li>
                     <li><a class="under"href="about.html">About</a></li>
                     <li class="dropdown">
                       <a class="dropdown-toggle under" data-toggle="dropdown" >Work </a>
@@ -90,21 +90,22 @@
 
                 <div class="scroll">Scroll down to check out some of my work!</div>
 
-                <a href="#workdiv"><span class="glyphicon glyphicon-menu-down arrow animated bounce"></span></a>
+                <a href="#workdiv"><span class="glyphicon glyphicon-menu-down arrow animated bounce" style="text-align: center; animation-duration: 2.5s;
+                    animation-iteration-count: infinite;"></span></a>
 
             </div>
             <div class="col-lg-2"></div>
         </div>
 
-
+        <div id="workdiv"></div>
         
-        <div class="row work" id="workdiv" >
+        <div class="row work" id="workdiv">
             <div class="col-lg-6" style="text-align: center; ">
-                <img src="portfolioimages/home/Group 184.png" width="70%" height="60%" >
+                <img src="portfolioimages/home/Group 184.png" width="70%" height="60%" style="margin-top: 10vh !important; margin-left: 10vw;">
             </div>
             <div class="col-lg-6 content text">
                 <a href="program.html" style="text-decoration: none;"><h2 style="letter-spacing:2px ; color: #00a3af ;">
-                   Program Admin Dashboard</h2></a>
+                   Program Admin's Dashboard</h2></a>
 
                 <div style="margin-top: 26px; line-height: 38px; font-size: 20px;color: grey;">
                     For tracking email campaign
@@ -116,7 +117,7 @@
         
             <div class="row work" >
                 <div class="col-lg-6" style="text-align: center; ">
-                    <img src="portfolioimages/home/meal prep about.png" width="35%" height="20%" style="margin-top: 5vh; ">
+                    <img src="portfolioimages/home/meal prep about.png" width="35%" height="20%" style="margin-top: 5vh; margin-left: 10vw;">
                 </div>
                
                     <div class="col-lg-6 content text">
@@ -135,7 +136,7 @@
 
         <div class="row work">
             <div class="col-lg-6" style="text-align: center; ">
-                <img src="portfolioimages/delivery/deliverydriver.png" width="70%" height="60%" style="margin-top: 5vh; ">
+                <img src="portfolioimages/delivery/deliverydriver.png" width="70%" height="60%" style="margin-top: 5vh; margin-left: 10vw;">
             </div>
             <div class="col-lg-6 content text ">
                 <a href="delivery.html" style="text-decoration: none;"><h2 style="letter-spacing:2px ; color: #00a3af ;">Simplifying Deliveries</h2></a>
@@ -150,7 +151,7 @@
 
         <div class="row work">
             <div class="col-lg-6" style="text-align: center; ">
-                <img src="portfolioimages/home/medicare final screen.png" width="70%" height="60%" style="margin-top: 8vh; ">
+                <img src="portfolioimages/home/medicare final screen.png" width="70%" height="60%" style="margin-top: 8vh; margin-left: 10vw;">
             </div>
             <div class="col-lg-6 content text">
                 <a href="medicare.html"  style="text-decoration: none;"><h2 style="letter-spacing:2px ; color: #00a3af ;">
@@ -167,7 +168,7 @@
         
         <div class="row work">
             <div class="col-lg-6" style="text-align: center; ">
-                <img src="portfolioimages/stock/home screen_edited.png" class="stockimg" width="100%" height="110%"  >
+                <img src="portfolioimages/stock/home screen_edited.png" class="stockimg" width="100%" height="110%" >
             </div>
             <div class="col-lg-6 content text">
                 <a href="stock.html" style="text-decoration: none;"><h2 style="letter-spacing:2px ; color: #00a3af ;">
@@ -183,7 +184,7 @@
 
         <div class="row work">
             <div class="col-lg-6" style="text-align: center; ">
-                <img src="portfolioimages/home/flyers (1).png" width="70%" height="70%" style="margin-top: 5vh; ">
+                <img src="portfolioimages/home/flyers (1).png" width="80%" height="70%" style="margin-top: 5vh; margin-left: 10vw;">
             </div>
             <div class="col-lg-6 content text">
                 <a href="visualr.html" style="text-decoration: none;"><h2 style="letter-spacing:2px ; color: #00a3af ;">
@@ -203,8 +204,8 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);">
-                <a href="logo.html" style="text-decoration: none; color: #00a3af"><h2> The Logo</h2>
-                    <p style=" letter-spacing: 1.2; color: #00a3af">Initials warped into a butterfly
+                <a href="logo.html" style="text-decoration: none; color: #00a3af"><h2 style="font-size:5rem;"> The Logo</h2>
+                    <p style="font-size:3rem; letter-spacing: 1.2; color: #00a3af">Initials warped into a butterfly
                     </p></a>
             </div>
         </div>
@@ -214,21 +215,14 @@
     <footer class="footer">
         <div class="col-lg-5 lets"><h4 class="">Lets connect...</h4>
             <div class="icons">
-                <a href="https://www.linkedin.com/in/nimisha-jain-ux/" target="_blank" style="text-decoration: none;"data-toggle="tooltip" data-placement="bottom"   title="LinkedIn"><i class="fa fa-linkedin space"></i></a>
-                <a href="mailto:nimisha12jain@gmail.com" data-toggle="tooltip" data-placement="bottom"   title="Email"><i class="fa fa-envelope"></i></a>
-                <a href="resume.html" target="_blank" style="text-decoration: none;" data-toggle="tooltip" data-placement="bottom"   title="Resume"><i class="fa fa-file"></i></a>
-</div>
-<p style="color: grey; font-size: 17px; margin-top: 5vh;">Designed by Nimisha 🦋
-   </p>
+                <a href="#"  style="text-decoration: none;"data-toggle="tooltip" data-placement="bottom"   title="LinkedIn"><i class="fa fa-linkedin space"></i></a>
+                <a href="mailto:nimisha12jain@gmail.com" style="text-decoration: none;" data-toggle="tooltip" data-placement="bottom"   title="Email"><i class="fa fa-envelope"></i></a>
+                <a href="#" style="text-decoration: none;" data-toggle="tooltip" data-placement="bottom"   title="Resume"><i class="fa fa-file"></i></a>
+
         </div>
-        <p class="dev" >  Special thanks💙 to Mragisha and Raj </p>
-          
-                
-                    
-                 
-              
-       
-      
+            
+        <p style="color: grey; font-size: 17px; margin-top: 5vh;">Designed by Nimisha 🦋</p>
+        </div>
         
 
     </footer>

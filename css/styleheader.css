@@ -72,12 +72,12 @@ li a{
 .navbar-default .navbar-nav .current{
   border-bottom: 3px solid #00a3af;
 }
-.navbar-default .navbar-nav .drop .under1{
-  border-bottom: 3px solid #00a3af;
-}
+
 .dropdown-menu a.active{
   background-color:#00a3af ;
+  color: white !important;
 }
+
 
 @media screen and (max-width: 798px) {
   .navbar-toggle{

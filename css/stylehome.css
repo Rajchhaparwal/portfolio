@@ -51,7 +51,7 @@ html {
         transform: translate(0px);
     }
     .stockimg{
-       margin-left: 10vw;
+       margin-left: 5vw !important;
     }
     
 
