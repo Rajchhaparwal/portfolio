@@ -1,0 +1,83 @@
+html {
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.intro {
+    margin-top: 25vh;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 1.3px;
+
+}
+
+.arrow {
+    margin-top: 5vh;
+    margin-left: 41vw;
+    font-size: 30px;
+    color: #00a3af;
+   
+}
+.heading{
+    text-align: left;
+    margin-top: 25vh;
+}
+.heading span{
+    font-size: 38px;
+}
+
+.overview {
+    margin-top: 40vh;
+    margin-left: 17vw;
+}
+
+.myrole,
+.personascenarios,
+.is,
+.wireframes,
+.finalscreens,
+.conclusion,.process,.overview {
+    margin-top: 15vh;
+    margin-left: 17vw;
+    width: 60%
+}
+
+.process {
+    margin-top: 20vh;
+    margin-left: 17vw;
+}
+
+p {
+    font-size: 17px;
+    margin-top: 3vh;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .boy img {
+        margin-left: 10vw !important;
+        
+    }
+    .heading{
+        text-align: center;
+        margin-top: 8vh;
+    }
+    .idea div{
+        text-align: center; 
+    }
+    .idea div img{
+        width:60%;
+    height: 60%;  
+ }
+ .intro{
+     margin-top: 10vh;
+ }
+ .heading span{
+     font-size: 30px;
+ }
+}

@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+     }
+     body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+     .intro {
+    margin-top: 10vh;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 1.3px;
+
+}
+.heading{
+    text-align: left;
+    margin-top: 30vh;
+}
+
+.arrow {
+    margin-top: 0;
+    margin-left: 41vw;
+    font-size: 30px;
+    color: #00a3af;
+   
+}
+.overview {
+    margin-top: 40vh;
+    margin-left: 17vw;
+}
+.myrole,
+.conclusion,.process,.overview {
+    margin-top: 15vh;
+    margin-left: 17vw;
+    width: 60%
+}
+.process {
+    margin-top: 20vh;
+    margin-left: 17vw;
+}
+p {
+    font-size: 17px;
+    margin-top: 3vh;
+}
+.heading span{
+    font-size: 38px;
+}
+@media screen and (max-width: 768px){
+    .heading{
+        text-align: center;
+        margin-top: 3vh;
+    }
+    .intro{
+        margin-top: 2vh;
+    }
+    .heading span{
+        font-size: 30px;
+    }
+}

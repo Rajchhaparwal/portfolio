@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+}
+html {
+    scroll-behavior: smooth;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.my-5{
+    margin-top:5rem !important;
+    margin-bottom: 5rem !important;
+}
+.photo{
+    margin-right: auto ;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+   
+}
+.mx-auto{
+    margin-right: auto !important;
+    margin-bottom: auto !important;
+}
+.row1{
+    text-align: center;
+}
+.about{
+    margin-top: 10px;
+}
+.text{
+    margin-top: 10px;
+    font-size: 20px;
+    word-spacing: 3px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    margin-bottom: 30px ;
+}
+.arrow{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #00a3af;
+    align-items: center;
+    margin-bottom: 100px;
+}
+#target{
+    margin-top: 20vh;
+}
+.quote{
+    margin-right: 10vw;
+    margin-left: 20vw;
+    margin-top: 20vh;
+    font-size: 16px;
+    font-family: open sans,sans-serif;
+    
+    margin-bottom: 60px;
+}
+.name{
+    text-align: right;
+    font-size: 15px;
+    font-family: open sans,sans-serif;
+    margin-right: 150px;
+}
+.am{
+    margin-top: 30px;
+}
+.am h3{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20vw;
+    font-family: open sans,sans-serif;
+    text-align: left;
+    
+    margin-right: 18vw;
+
+    
+
+}
+
+.text1{
+    font-size: 17px;
+    text-align: left;
+    margin-left: 20vw;
+    
+    margin-right: 18vw;
+    margin-bottom: 60px;
+
+}
+@media screen and (max-width: 768px){
+   .about div{
+       margin-top: 1vh;
+   }
+}

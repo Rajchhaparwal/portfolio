@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css\styleheader.css">
+    <link rel="stylesheet" type="text/css" href="css\stylefooter.css">
+    <link rel="stylesheet" type="text/css" href="css\stylehome.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="shortcut icon" type="image/png" href="portfolioimages/home/logo.png">
+<script src="https://use.fontawesome.com/5a55d06455.js"></script>
+
+    <title>UX Designer | Nimisha Jain</title>
+
+    
+</head>
+<body >
+    <header class="header">
+        <nav class="navbar  navbar-default navbar-style navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle burger" data-toggle="collapse" data-target="#myNavbar">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>  
+                    </button>
+      
+                    <a href="index.html"><img class="logo" src="logom.png"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right navcontent " >
+                    <li class="current"><a href="index.html" href="#home" >Home</a></li>
+                    <li><a class="under"href="about.html">About</a></li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle under" data-toggle="dropdown" >Work </a>
+                      <ul class="dropdown-menu drop">
+                        <li><a  href="program.html">Program Admin's Dashboard</a></li>
+                            <li><a  href="preppy.html">Preppy</a></li>
+                            <li><a  href="delivery.html">Delivery Driver's App</a></li>
+                            <li><a  href="medicare.html">Medicare Enrollment Portal </a></li>
+                            <li><a  href="stock.html">Stock Scanning App </a></li>
+                              <li><a  href="visualr.html">Visual Design</a></li>
+                      </ul>    
+                    </li>
+                    <li><a class="under"href="contact.html">Contact</a></li>
+                    <li><a class="under"href="resume.html">Resume</a></li>
+                </ul>
+                </div>  
+            </div>
+        </nav>
+      </header>
+      <script>
+        const burger=document.querySelector('.burger');
+         burger.addEventListener("click",()=>{
+                
+                burger.classList.toggle('toggle');
+                $('.navbar-toggle').removeClass('hover');
+                
+            });
+      </script>
+  
+
+    <div class="container">
+        <div class="row main">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div class="intro">
+                    <img src="portfolioimages/home/nimi.png" width="100px" height="100px" style="border-radius: 50%;">
+                    <h1 style="letter-spacing:1.5px; font-size: 40px;">
+                        Hi, I'm <span style="color: #00a3af ">Nimisha</span></h1>
+                    <h1 class="typing" style="letter-spacing:3px; font-size: 30px; color: #00a3af ;"></h1>
+                </div>
+               
+
+
+                <div class="details">
+                    A graduate design student at the University of Michigan-Dearborn.<br>
+                    Looking for an amazing group to design delightful user<br>
+                     experiences while enhancing my skills.
+                </div>
+
+                <div class="scroll">Scroll down to check out some of my work!</div>
+
+                <a href="#workdiv"><span class="glyphicon glyphicon-menu-down arrow animated bounce"></span></a>
+
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+
+        
+        <div class="row work" id="workdiv" >
+            <div class="col-lg-6" style="text-align: center; ">
+                <img src="portfolioimages/home/Group 184.png" width="70%" height="60%" >
+            </div>
+            <div class="col-lg-6 content text">
+                <a href="program.html" style="text-decoration: none;"><h2 style="letter-spacing:2px ; color: #00a3af ;">
+                   Program Admin Dashboard</h2></a>
+
+                <div style="margin-top: 26px; line-height: 38px; font-size: 20px;color: grey;">
+                    For tracking email campaign
+                     <br>
+                    Empathize, Define, Ideate, Prototype
+                    </div>
+            </div>
+        </div>
+        
+            <div class="row work" >
+                <div class="col-lg-6" style="text-align: center; ">
+                    <img src="portfolioimages/home/meal prep about.png" width="35%" height="20%" style="margin-top: 5vh; ">
+                </div>
+               
+                    <div class="col-lg-6 content text">
+                        <a href="preppy.html" style="text-decoration: none;"><h2 style="letter-spacing:2px ; color: #00a3af ;">Preppy</h2></a>
+        
+                        <div style="margin-top: 26px; line-height:38px; font-size: 20px;color: grey;">
+                            A social meal-prepping app<br>
+                             Idea generation, Empathize, Define, Ideate, Prototype, Test
+                            </div>
+                    </div>
+               
+                
+            </div>
+      
+        
+
+        <div class="row work">
+            <div class="col-lg-6" style="text-align: center; ">
+                <img src="portfolioimages/delivery/deliverydriver.png" width="70%" height="60%" style="margin-top: 5vh; ">
+            </div>
+            <div class="col-lg-6 content text ">
+                <a href="delivery.html" style="text-decoration: none;"><h2 style="letter-spacing:2px ; color: #00a3af ;">Simplifying Deliveries</h2></a>
+
+                <div style="margin-top: 26px; line-height: 38px; font-size: 20px;color: grey;">
+                    Truck driver delivery app for Australian drivers
+                    <br>
+                    Empathize, Define, Ideate
+                    </div>
+            </div>
+        </div>
+
+        <div class="row work">
+            <div class="col-lg-6" style="text-align: center; ">
+                <img src="portfolioimages/home/medicare final screen.png" width="70%" height="60%" style="margin-top: 8vh; ">
+            </div>
+            <div class="col-lg-6 content text">
+                <a href="medicare.html"  style="text-decoration: none;"><h2 style="letter-spacing:2px ; color: #00a3af ;">
+                    Medicare Enrollment Portal</h2></a>
+
+                <div style="margin-top: 26px; line-height: 38px; font-size: 20px;color: grey;">
+                    A web portal for elderly
+                    <br>
+                    Empathize, Define, Ideate, Prototype
+                    </div>
+            </div>
+        </div>
+
+        
+        <div class="row work">
+            <div class="col-lg-6" style="text-align: center; ">
+                <img src="portfolioimages/stock/home screen_edited.png" class="stockimg" width="100%" height="110%"  >
+            </div>
+            <div class="col-lg-6 content text">
+                <a href="stock.html" style="text-decoration: none;"><h2 style="letter-spacing:2px ; color: #00a3af ;">
+                    Stock Scanner App</h2></a>
+
+                <div style="margin-top: 26px; line-height: 38px; font-size: 20px;color: grey;">
+                    A scanner application for managing stock
+                    <br>
+                    Empathize, Define, Ideate, Prototype
+                    </div>
+            </div>
+        </div>
+
+        <div class="row work">
+            <div class="col-lg-6" style="text-align: center; ">
+                <img src="portfolioimages/home/flyers (1).png" width="70%" height="70%" style="margin-top: 5vh; ">
+            </div>
+            <div class="col-lg-6 content text">
+                <a href="visualr.html" style="text-decoration: none;"><h2 style="letter-spacing:2px ; color: #00a3af ;">
+                   Visual Design</h2></a>
+
+                <div style="margin-top: 26px; line-height: 38px; font-size: 20px;color: grey;">
+                    Designing for promotion
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div class="logof" style="margin-top: 25vh; text-align: center; position: relative;" >
+            <img  class="homelogo" src="portfolioimages/home/homelogo.png" width="50%" height="50%" >
+            <div class="logotext" style="color: #00a3af ;   position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);">
+                <a href="logo.html" style="text-decoration: none; color: #00a3af"><h2> The Logo</h2>
+                    <p style=" letter-spacing: 1.2; color: #00a3af">Initials warped into a butterfly
+                    </p></a>
+            </div>
+        </div>
+        
+       
+    </div>
+    <footer class="footer">
+        <div class="col-lg-5 lets"><h4 class="">Lets connect...</h4>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/nimisha-jain-ux/" target="_blank" style="text-decoration: none;"data-toggle="tooltip" data-placement="bottom"   title="LinkedIn"><i class="fa fa-linkedin space"></i></a>
+                <a href="mailto:nimisha12jain@gmail.com" data-toggle="tooltip" data-placement="bottom"   title="Email"><i class="fa fa-envelope"></i></a>
+                <a href="resume.html" target="_blank" style="text-decoration: none;" data-toggle="tooltip" data-placement="bottom"   title="Resume"><i class="fa fa-file"></i></a>
+</div>
+<p style="color: grey; font-size: 17px; margin-top: 5vh;">Designed by Nimisha 🦋
+   </p>
+        </div>
+        <p class="dev" >  Special thanks💙 to Mragisha and Raj </p>
+          
+                
+                    
+                 
+              
+       
+      
+        
+
+    </footer>
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+        </script>
+   <script>
+      
+       const texts=' UX Designer';
+       let index=0;
+       let letter='';
+       var isdel=false;
+       //self invoked function
+    /*    (function type(){
+
+            if(count===texts.length){
+                count=0;
+            }
+            currentText=texts[count];
+            letter=currentText.slice(0,++index);
+            document.querySelector('.typing').textContent=letter;
+           
+            if(letter.length===currentText.length){
+                count++;
+                index=0;
+            }
+            setTimeout(type,300);
+       }()); */
+
+       (function type(){
+           if(isdel){
+                letter=texts.slice(1,--index);
+           }
+           else{
+               letter=texts.slice(0,++index);
+              }
+            console.log(letter);
+            document.querySelector('.typing').textContent=letter;
+            let typespeed=500;
+            if(isdel){
+                typespeed/=2;
+            }
+            if(!isdel && letter.length===texts.length){
+                typespeed=3000;
+                isdel=true;
+            }
+            else if(isdel && letter.length===1){
+                isdel=false;
+                index++;
+            }
+
+
+            setTimeout(type,typespeed);
+       }());
+
+
+       function scrollAppear(){
+           var i;
+        var text=document.querySelectorAll(".text");
+        for( i=0;i<text.length;i++){
+            var textposition=text[i].getBoundingClientRect().top;
+           var screenposition=window.innerHeight/1.3;
+
+           if(textposition<screenposition){
+               text[i].classList.add("text-appear");
+           }
+       }
+        }
+          
+       window.addEventListener("scroll",scrollAppear);
+       </script>
+       
+</body>
+</html>

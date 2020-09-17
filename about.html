@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css\styleabout.css">
+        <link rel="stylesheet" type="text/css" href="css\styleheader.css">
+    <link rel="stylesheet" type="text/css" href="css\stylefooter.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+
+<!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>About | Nimisha Jain</title>
+        <script src="https://use.fontawesome.com/5a55d06455.js"></script>
+        <link rel="shortcut icon" type="image/png" href="portfolioimages/home/logo.png">
+
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar  navbar-default navbar-style navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle burger" data-toggle="collapse" data-target="#myNavbar">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>  
+                        </button>
+          
+                        <a href="index.html"><img class="logo" src="logom.png"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right navcontent " >
+                        <li><a  class="under"href="index.html" href="#home" >Home</a></li>
+                        <li class="current"><a  href="about.html">About</a></li>
+                        <li class="dropdown">
+                          <a class="dropdown-toggle under" data-toggle="dropdown" href="#">Work </a>
+                          <ul class="dropdown-menu drop">
+                            <li><a  href="program.html">Program Admin's Dashboard</a></li>
+                            <li><a  href="preppy.html">Preppy</a></li>
+                            <li><a  href="delivery.html">Delivery Driver's App</a></li>
+                            <li><a  href="medicare.html">Medicare Enrollment Portal </a></li>
+                            <li><a  href="stock.html">Stock Scanning App </a></li>
+                              <li><a  href="visualr.html">Visual Design</a></li>
+                              
+                          </ul>    
+                        </li>
+                        <li><a  class="under" href="contact.html">Contact</a></li>
+                        <li><a  class="under" href="resume.html">Resume</a></li>
+                    </ul>
+                    </div>  
+                </div>
+            </nav>
+          </header>
+          <script>
+            const burger=document.querySelector('.burger');
+             burger.addEventListener("click",()=>{
+                    
+                    burger.classList.toggle('toggle');
+                    $('.navbar-toggle').removeClass('hover');
+                    
+                });
+          </script>
+      
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col mx-auto about my-5">
+                    <div class="row1 justify-content-center " style="margin-top: 15vh;">
+                        <img src="photo.png" class=".img-responsive img-circle photo ">
+                    </div>
+                    <div class="text">
+                        <p style="font-weight: 400;">A graduate design student at the University of Michigan-Dearborn.<br>
+                            Looking for an amazing group to design delightful experiences while<br> enhancing my skills.
+                        </p>
+                        <a href="#target"><span class="glyphicon glyphicon-menu-down arrow animated bounce" style="text-align: center; animation-duration: 2.5s;
+                            animation-iteration-count: infinite;"></span></a>
+                    </div>  
+                    <div id="target"></div>
+                    
+                    <div class="quote" id="target">
+                        <p>"The next big thing is the one that makes the last big thing usable."
+                        </p>
+                        <p class="name">— Blake Ross</p></div>
+                       
+                    <div class="am">
+                        <h3>WHAT I AM DOING CURRENTLY?</h3><br>
+                    </div>
+                    <div class="text1">
+                        <p>I am current graduate student at University of Michigan-Dearborn, majoring in Human Centered Design and Engineering.<br>
+                            I have learnt and applied the process of Design Thinking, Human Factors Ergonomics and Marketing Management in my past semester. In my current semester I intend to learn about the various research methods and more about human-computer interaction.
+                            ​<br><br>
+                            To put my current skills to work and gain some practical experience, I am actively looking for design opportunities either full-time or part-time.</p>
+                        <br></div>
+                        <div class="am">
+                            <h3>WHERE I COME FROM?</h3><br>
+                        </div>
+                        <div class="text1">
+                            <p>I have 2 years of experience in User Experience Design, with a mid-size IT solutions company named GGK Technologies based in Hyderabad, India. <br>
+                                At GGK, my major responsibilities included designing user interfaces based on client requirements considering users and business goals. For translating the information Architecture, navigation and Process flow into delightful and easy-to-use solutions, I would collaborate with different cross-functional teams– Clients, Project managers, Developers, Business Analysts, etc. Post designing, the process was put to extensive documentation for future training purposes.</p>
+                        <br></div>
+                         <div class="am">
+                             <h3>WHAT I LIKE?</h3><br>
+                         </div>
+                         <div class="text1">
+                             <p>Along with my fondness of exploring the intersection of various technologies and human contexts, I am a fan of details specially when it is used to convey emotions. This interest of details pops up as I see the beauty of gods creation as well.
+                                ​<br><br>
+                                I am always up for any chance that is related to dance. Apart from this love, I like spending my time in sketching and travelling </p>
+                         </div>
+                
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="col-lg-5 lets"><h4 class="">Lets connect...</h4>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/nimisha-jain-ux/" target="_blank" style="text-decoration: none;"data-toggle="tooltip" data-placement="bottom"   title="LinkedIn"><i class="fa fa-linkedin space"></i></a>
+                    <a href="mailto:nimisha12jain@gmail.com" data-toggle="tooltip" data-placement="bottom"   title="Email"><i class="fa fa-envelope"></i></a>
+                    <a href="resume.html" target="_blank" style="text-decoration: none;" data-toggle="tooltip" data-placement="bottom"   title="Resume"><i class="fa fa-file"></i></a>
+    </div>
+    <p style="color: grey; font-size: 17px; margin-top: 5vh;">Designed by Nimisha 🦋
+       </p>
+            </div>
+            <p class="dev" >  Special thanks💙 to Mragisha and Raj </p>
+              
+                    
+                        
+                     
+                  
+           
+          
+            
+    
+        </footer>
+        <script>
+            $(document).ready(function(){
+              $('[data-toggle="tooltip"]').tooltip();   
+            });
+            </script>
+        
+
+    </body>
+
+</html>
